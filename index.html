@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a59b9b09ab.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <title>Landing Page</title>
+</head>
+<body>
+    <!-- TOP -->
+    <div class="top">
+        <div style="display: flex; align-items: center; margin-left: 30px;">
+            <img id="menu" src="menu.png">
+        </div>   
+
+        <div class="menu">
+            <a href="#cover" onclick="customSmoothScroll('#cover', 90)">Popular Cars</a>
+            <a href="#box" onclick="customSmoothScroll('#box', 90)">User Offers</a>
+            <a href="#info" onclick="customSmoothScroll('#info', 90)">Location</a>
+        </div>
+
+        <div class="center">
+            <img id="mainlogo" src="MAIN LOGO.png">
+            <span style="color: white; font-family: cursive; width: 200px; font-size: 1.5em;">Life On Wheels</span>
+        </div>
+        
+        <a href="./login_page/index.html" class="Register">
+            <div>
+                <i class="fas fas fa-user-alt" style=" font-size: 1.5em;"></i>    
+                <p id="Username">Login</p>
+            </div>
+            
+        </a>
+        <a href="./register/index.html" class="Register" id="box1" style="margin-left: -350px;">
+            <div>
+                <p id="Username">Register</p>
+            </div>
+            
+        </a>
+        <div id="box2">
+            <a href="./index.html" class="Register1" style="margin-left: -250px; color: white;">
+                <p>logout</p>
+            </a>
+         </div>
+        
+    </div>
+    <!-- CONTENT -->
+    <br>
+
+    <div class="photoparent">
+        <div class="photos">
+            <img src="photos/10-porsche-718-cayman-gt4-rs-top-10.webp">
+            <img src="photos/0x0.webp">
+            <img src="photos/2020-bmw-m8-competition-coupe-104-1570575778.jpg">
+            <img src="photos/10-porsche-718-cayman-gt4-rs-top-10.webp">
+            <img src="photos/0x0.webp">
+            <img src="photos/2020-bmw-m8-competition-coupe-104-1570575778.jpg">
+            <img src="photos/10-porsche-718-cayman-gt4-rs-top-10.webp">
+            <img src="photos/0x0.webp">
+            <img src="photos/2020-bmw-m8-competition-coupe-104-1570575778.jpg">
+        </div>
+    </div>
+    <div style="z-index: 995; width: 100%; height: 50px;" class="slider-dots" id="sliderDots"></div>
+
+    <p class="echo">Every Big Thing Starts With Small Things</p>
+    <br><br>
+
+    <span id="cover" style="margin-left: 10px; font-size: 2em; font-family: cursive; ">Popular Cars</span>
+    <br><br><br>
+    
+    
+    <div  class="cover">
+        <button class="left">
+          <i class="fas fa-arrow-alt-circle-left"></i>
+        </button>
+        <div class="scroll-images">
+            <div id="item1" class="item">
+                <img style="width: 100%;" src="photos/18015-MC20BluInfinito-scaled-e1666008987698.jpg">
+                <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque at expedita </span>
+                <a href="/landing_Product/index.html">Learn More</a>
+            </div>
+            <div id="item2" class="item">
+                <img style="width: 100%;" src="photos/18015-MC20BluInfinito-scaled-e1666008987698.jpg">
+                <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque at expedita </span>
+                <a href="/landing_Product/index.html">Learn More</a>
+            </div>
+            <div id="item3" class="item">
+                <img style="width: 100%;" src="photos/18015-MC20BluInfinito-scaled-e1666008987698.jpg">
+                <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque at expedita </span>
+                <a href="/landing_Product/index.html">Learn More</a>
+            </div>
+            <div id="item4" class="item">
+                <img style="width: 100%;" src="photos/18015-MC20BluInfinito-scaled-e1666008987698.jpg">
+                <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque at expedita </span>
+                <a href="/landing_Product/index.html">Learn More</a>
+
+            </div>
+            <div id="item5" class="item">
+                <img style="width: 100%;" src="photos/18015-MC20BluInfinito-scaled-e1666008987698.jpg">
+                <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque at expedita </span>
+                <a href="/landing_Product/index.html">Learn More</a>
+
+            </div>
+            <div id="item6" class="item">
+                <img style="width: 100%;" src="photos/18015-MC20BluInfinito-scaled-e1666008987698.jpg">
+                <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque at expedita </span>
+                <a href="/landing_Product/index.html">Learn More</a>
+
+            </div>
+            <div id="item7" class="item">
+                <img style="width: 100%;" src="photos/18015-MC20BluInfinito-scaled-e1666008987698.jpg">
+                <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque at expedita </span>
+                <a href="/landing_Product/index.html">Learn More</a>
+
+            </div>
+            <div id="item8" class="item">
+                <img style="width: 100%;" src="photos/18015-MC20BluInfinito-scaled-e1666008987698.jpg">
+                <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque at expedita </span>
+                <a href="/landing_Product/index.html">Learn More</a>
+
+            </div>
+            <div id="item9" class="item">
+                <img style="width: 100%;" src="photos/18015-MC20BluInfinito-scaled-e1666008987698.jpg">
+                <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque at expedita </span>
+                <a href="/landing_Product/index.html">Learn More</a>
+
+            </div>
+        </div>
+        <button class="right">
+          <i class=" fas fa-arrow-alt-circle-right"></i>
+        </button>
+      </div>
+
+    <div id="box" class="box">
+        <p  style="color: white; font-size: 25px; font-weight: 700; margin: 30px;">User Offers</p>
+        <div class="offers">
+            <div class="boxchildes">
+                <span>Guest+</span>
+                
+                <span style="font-size: 16px;">Lorem ip mollitia maiores praesentium vitae neque, reprehenderit placeat </span>
+                
+                <span style="align-self: center;">Free</span>
+                
+                <a href="index.html" style="align-self: center; cursor: pointer;">Learn more</a>
+            </div>
+            <div class="boxchildes">
+                <span>Standart</span>
+                
+                <span style="font-size: 16px;">Lorem ip mollitia maiores praesentium vitae neque, reprehenderit placeat</span>
+                
+                <span style="align-self: center;">99 Gel/Month</span>
+                
+                <a href="index.html" style="align-self: center; cursor: pointer;">Learn more</a>
+            </div>
+            <div class="boxchildes">
+                <span>Proffesional</span>
+                
+                <span style="font-size: 16px;">Lorem ip mollitia maiores praesentium vitae neque, reprehenderit placeat</span>
+                
+                <span style="align-self: center;">200 Gel/Month</span>
+
+                <a href="index.html" style="align-self: center; cursor: pointer;">Learn more</a>
+            </div>
+        </div>
+
+        <a href="./login_page/index.html" class="register">Login Now!</a>
+    </div>
+    
+
+    <div class="location">
+        <div>
+        <iframe id="location1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5008.602630835627
+        !2d44.78375265218222!3d41.717650056453955!2m3!1f0!2f0!3f0!3m2!1i1024
+        !2i768!4f13.1!3m3!1m2!1s0x404472d4fb9f5e75%3A0x7bffbbb9bcb2a6b9!2sGeorgian%20Americ
+        an%20University%20(GAU)!5e0!3m2!1sen!2sge!4v1700678632383!5m2!1sen!2sge" 
+        width="550" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style="display: none;"></iframe>
+        </div>
+        
+        <div id="info" class="info">
+            <span style="font-size: 25px;">Location</span><br>
+            <span>Main Address: 10 Merab Aleksidze St, Tbilisi 0160</span><br>
+            <span>This is link: <a style="text-decoration: none;" href="http://gau.edu.ge/">GAU !</a></span><br>
+            <span style="margin-bottom: 6px;">Phone Number: 0322206520</span>
+            <select id="mySelect" name="location" size="6">
+                <option selected onclick="selectOption('op1')">10 Merab Aleksidze St, Tbilisi 0160</option>
+                <option onclick="selectOption('op2')">Zgvaludi Gldani</option>
+                <option onclick="selectOption('op3')">Varketilis Metro</option>
+                <option onclick="selectOption('op1')">10 Merab Aleksidze St, Tbilisi 0160</option>
+                <option onclick="selectOption('op2')">Zgvaludi Gldani</option>
+                <option onclick="selectOption('op3')">Varketilis Metro</option>
+                <option onclick="selectOption('op1')">10 Merab Aleksidze St, Tbilisi 0160</option>
+                <option onclick="selectOption('op2')">Zgvaludi Gldani</option>
+                <option onclick="selectOption('op3')">Varketilis Metro</option>
+                <option onclick="selectOption('op1')">10 Merab Aleksidze St, Tbilisi 0160</option>
+                <option onclick="selectOption('op2')">Zgvaludi Gldani</option>
+                <option onclick="selectOption('op3')">Varketilis Metro</option>
+                
+            </select>
+        </div>
+    
+    </div>
+    <footer>
+        <div style="display: flex; flex-direction: column; justify-content: space-between; align-items: center; width: 200px;">
+            <img id="mainlogo" src="MAIN LOGO.png">
+            <p style="margin-left: 15px;">Life On Wheels</p>
+        </div>
+        <div style="display: flex; flex-direction: column; justify-content: space-between; align-items: center; width: 400px;">
+            <p>Contacts:</p>
+            <p>address: 10 Merab Aleksidze St</p>
+            <p>Phone 1: +995 555-55-55-55</p>
+            <p>Phone 2: +995 555-55-55-55</p>
+            <p>Phone 3: +995 555-55-55-55</p>
+        </div>
+        <div style="display: flex; flex-direction: column; justify-content: space-between; align-items: center; width: 600px;">
+            <p>Thank You For Visiting This Site.</p>
+            <p>Wish You All The Best ! And 10/10 Grade !</p>
+            <p>© 2023 Yazo | Giorgi Kazishvili</p>
+        </div>
+        <div class="links">
+            <a href="/index.html">Main Page</a>
+            <a href="/login_page/index.html">Login Page</a>
+        </div>
+    </footer>
+</body>
+<script src="index.js"></script>
+</html>

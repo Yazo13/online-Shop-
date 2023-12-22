@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    font-family:  'Itim', cursive;
+    animation: fadeIn 0.5s ease;
+}
+.top{
+    background-image:linear-gradient(to left, #0f2944, #2775ce);
+    height: 120px;
+}
+.left {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size:30px;
+    position: absolute;
+    left: 20px;
+    top: 60px;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    z-index: 999;
+    font-weight: 900;
+    color: white;
+}
+.center{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.center img{
+    width: 600px;
+    height: 300px;
+    filter: invert(100%);
+    padding-right: 50px;
+    margin-top: -250px;
+}
+.center span{
+    margin-top: -100px;
+    color: #0a2647;
+}
+.LoginForm{
+    margin-top: -60px;
+    display: flex;
+    flex-direction: column;
+    align-self:center;
+    align-items: center;
+    font-size: 2em;
+    margin-bottom: 100px;
+}
+.LoginForm form {
+    min-width: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.LoginForm button{
+    width: 200px;
+    font-size: 25px;
+    color: white;
+    background-color: #144272;
+    border-radius: 10px;
+    height: 50px;
+
+}
+.LoginForm input {
+    font-size: 25px;
+    border: none;
+    border-bottom: 3px solid #0a2647;
+    outline: none;
+}
+.LoginForm label {
+    font-style: italic;
+    color: #144272;
+    font-weight: 600;
+    font-size: 0.9em;
+}
+
+.centri{
+    margin-top: 200px;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
